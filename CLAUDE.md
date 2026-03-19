@@ -1,13 +1,23 @@
-# Guidelines for "Fundamentals of Software Architecture" Notes
+# CLAUDE.md
+
+This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
+
+## Project Overview
 
 **Book:** Fundamentals of Software Architecture — Mark Richards & Neal Ford
 **Purpose:** Transform raw reading notes into clear, complete, and pedagogically effective study material.
+
+This is a markdown-only repository — no build, lint, or test commands. The workflow is: user provides raw chapter notes, agent transforms them per the rules below, output is reviewed and committed.
+
+## File Naming Convention
+
+Chapter files use the pattern `ch_XX_<short_title>.md` (e.g., `ch_01_intro.md`, `ch_02_architectural_thinking.md`). Diagrams are PNG images referenced from chapter files.
 
 ---
 
 ## Expected structure per chapter
 
-Each notes file should be named `chapter_XX.md` and follow this structure:
+Each chapter notes file should follow this structure:
 
 1. **Title & context** — Chapter name, number, and one sentence summarizing why this topic matters.
 2. **Key concepts** — List of essential terms and definitions from the chapter.
